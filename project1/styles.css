@@ -59,18 +59,39 @@ a:hover {
     padding: 5px 10px 10px 10px;
 }
 
-/* .nav a {
+.nav a {
     transition: all .5s;
+    /* animation: bar .2s ease-in-out; */
 }
 
 .nav a:hover {
-    color: white
+    color: white;
+    animation: barHover .3s forwards;
+}
+
+/* @keyframes bar {
+    100% {
+        border-bottom: 5px solid #F0C40F;
+    }
+    0% {
+        border-bottom: 0 solid #F0C40F;
+    }
 } */
+
+@keyframes barHover {
+    0% {
+        border-bottom: 0 solid #F0C40F;
+    }
+    100% {
+        border-bottom: 5px solid #F0C40F;
+    }
+}
 
 
 /* Top and Bottom borders go out */
 
-.main-nav li a:before,
+
+/* .main-nav li a:before,
 .main-nav li a:after {
     position: absolute;
     left: 0px;
@@ -96,7 +117,7 @@ a:hover {
 .main-nav li a:hover:after {
     opacity: 1;
     transform: translateY(0px);
-}
+} */
 
 header {
     text-align: center;
