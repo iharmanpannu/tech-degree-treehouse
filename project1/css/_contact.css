@@ -1,0 +1,20 @@
+.contact-header {
+    text-align: center;
+    background: url('../images/contact.png') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.contact-me h1 {
+    color: #FAF9FA;
+}
+
+.contact a {
+    color: #333233;
+}
+
+.contact a:hover {
+    color: #838383;
+}
+

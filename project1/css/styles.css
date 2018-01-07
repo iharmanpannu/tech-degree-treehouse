@@ -27,12 +27,12 @@ a {
 }
 
 a:hover {
-    color: #6633ff;
+    color: #ffe033;
 }
 
 header {
     text-align: center;
-    background: url('images/code.jpg') no-repeat top center;
+    background: url('../images/code.jpg') no-repeat top center;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -40,6 +40,7 @@ header {
 
 header {
     line-height: 1.75;
+    color: #efefef;
 }
 
 header .profile-image {
@@ -47,8 +48,8 @@ header .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 5%;
-    border: 3px solid white;
-    transition: all 3s;
+    border: 3px solid #ffffff;
+    transition: all 4s;
 }
 
 header .profile-image:hover {
@@ -56,16 +57,12 @@ header .profile-image:hover {
 }
 
 .tag {
-    background-color: #efefefc9;
-    color: #2E333D;
-    padding: 10px;
+    background: rgba(51, 50, 51, 0.686);
+    padding: 0 20px;
     border-radius: 5px;
     display: table;
-    margin: 10px auto;
-}
-
-.tag a {
-    color: #2E333D
+    margin: 20px auto;
+    /* text-transform: uppercase; */
 }
 
 .location {
@@ -148,15 +145,15 @@ a.social {
 }
 
 a.twitter {
-    background-image: url(images/twitter.svg);
+    background-image: url(../images/twitter.svg);
 }
 
 a.linkedin {
-    background-image: url(images/linkedin.svg);
+    background-image: url(../images/linkedin.svg);
 }
 
 a.github {
-    background-image: url(images/github.svg);
+    background-image: url(../images/github.svg);
 }
 
 a.social:hover {

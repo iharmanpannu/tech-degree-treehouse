@@ -59,6 +59,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/images\/about.png": {
+		"ft": 32768,
+		"iS": 508911,
+		"oA": 0,
+		"oAP": "\/images\/about.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/code.jpg": {
 		"ft": 16384,
 		"iS": 195443,
@@ -67,6 +78,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/contact.png": {
+		"ft": 32768,
+		"iS": 105710,
+		"oA": 0,
+		"oAP": "\/images\/contact.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/github.svg": {
@@ -98,16 +120,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/images\/portland.jpg": {
-		"ft": 16384,
-		"iS": 1212525,
-		"oA": 0,
-		"oAP": "\/images\/portland.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/images\/twitter.svg": {
