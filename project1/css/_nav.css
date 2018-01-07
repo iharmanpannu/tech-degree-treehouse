@@ -1,0 +1,58 @@
+/* Section Styles */
+
+.main-nav {
+    width: 100%;
+    background: rgba(51, 50, 51, 0.659);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: #EFEEEF;
+    font-family: Raleway;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    transition: all .5s;
+    animation: bar .1s ease-in-out;
+}
+
+.nav a:hover {
+    color: white;
+    animation: barHover .3s forwards;
+}
+
+@keyframes bar {
+    0% {
+        border-bottom: 4px solid #F0C40F;
+    }
+    100% {
+        border-bottom: 0 solid #F0C40F;
+    }
+}
+
+@keyframes barHover {
+    0% {
+        border-bottom: 0 solid #F0C40F;
+    }
+    100% {
+        border-bottom: 4px solid #F0C40F;
+    }
+}
