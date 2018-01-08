@@ -1,0 +1,9 @@
+.header {
+    padding: 3em;
+    background: #F9F9F9;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column-reverse;
+}

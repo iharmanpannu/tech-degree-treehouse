@@ -2,6 +2,18 @@ body,
 html {
     font-size: 16px;
     font-family: 'Bellefair', serif;
-    background: #FAF9FA;
-    color: #93909B;
+    background: #444141;
+    color: #888888;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+    line-height: 1.75;
 }

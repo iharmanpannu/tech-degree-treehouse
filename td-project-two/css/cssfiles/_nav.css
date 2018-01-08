@@ -1,8 +1,27 @@
+#logo {
+    font-size: 2em;
+    color: #36383B;
+    font-weight: 500;
+}
+
 .nav {
-  display: flex;
-  flex-direction: row;
+    text-align: center;
 }
+
 .nav ul {
-  display: flex;
-  flex-direction: row;
+    margin: 2em 0;
 }
+
+.nav li {
+    background: #777777;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: #FEFFFE
+}
+
+/* .nav a:hover {
+  transition-delay: 
+} */
