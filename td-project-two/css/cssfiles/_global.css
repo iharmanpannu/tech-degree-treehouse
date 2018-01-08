@@ -44,3 +44,7 @@ h2 {
     margin: 2em 0;
     text-transform: uppercase;
 }
+
+.wrapper {
+    border: 1px solid #4e4e4e;
+}

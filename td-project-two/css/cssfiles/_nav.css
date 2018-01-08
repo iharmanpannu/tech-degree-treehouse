@@ -30,7 +30,6 @@
     }
     .nav li {
         margin: 10px 0;
-        justify-self: flex-end;
         align-self: center;
     }
     .nav ul {
