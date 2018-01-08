@@ -1,7 +1,7 @@
-@import 'css/global.css';
+@import 'cssfiles/_global.css';
 @import 'cssfiles/_header.css';
 @import 'cssfiles/_nav.css';
 @import 'cssfiles/_middle.css';
 @import 'cssfiles/_footer.css';
 @import 'cssfiles/_contact.css';
-@import 'cssfiles/__mediaqueries css';
+@import 'cssfiles/_mediaqueries.css';
