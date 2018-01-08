@@ -1,20 +1,14 @@
-.portfolio-header h1 {
-    font-size: 1.75rem;
-    text-align: center;
-    margin: 2em 0;
-    text-transform: uppercase;
-}
-
 .portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    color: #F9F9F9;
 }
 
 .portfolio div {
-    max-width: 350px ;
+    max-width: 350px;
     justify-items: center;
     align-self: center;
     margin: 0 10px;
