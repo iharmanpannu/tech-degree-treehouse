@@ -1,0 +1,42 @@
+.portfolio-header h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 2em 0;
+    text-transform: uppercase;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.portfolio div {
+    max-width: 350px ;
+    justify-items: center;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.portfolio h4 {
+    font-size: 1.25rem;
+    margin: 1em 0;
+}
+
+.portfolio p {
+    margin-bottom: 1em;
+}
+
+
+/* Media queries  */
+
+@media (min-width: 1024px) {
+    .portfolio {
+        justify-content: space-between;
+    }
+    .portfolio div {
+        max-width: 300px;
+    }
+}

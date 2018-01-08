@@ -1,7 +1,6 @@
 body,
 html {
     font-size: 16px;
-    font-family: 'Bellefair', serif;
     background: #444141;
     color: #888888;
 }
@@ -13,7 +12,28 @@ li {
 a {
     text-decoration: none;
 }
-p {
+
+p,
+a {
     font-size: 20px;
     line-height: 1.75;
+    font-family: 'Bellefair', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
 }
